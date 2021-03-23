@@ -1,0 +1,21 @@
+{
+    "name": "mid-brown",
+    "displayName": "mid-brown",
+    "description": "Low-contrast brown theme for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Medium Brown",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Medium-Brown-color-theme.json"
+            }
+        ]
+    }
+}
