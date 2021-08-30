@@ -1,5 +1,5 @@
 {
-    "name": "Choco Mint",
+    "name": "Medium Brown",
     "type": "dark",
     "colors": {
         // "BG": "#443B37",
@@ -242,16 +242,17 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#C55A58"
+                "foreground": "#B4AD9C"
             }
         },
         {
             "name": "meta.object-literal.key",
             "scope": [
-                "meta.object-literal.key"
+                "meta.object-literal.key",
+                "meta.object-literal.key entity.name.function",
             ],
             "settings": {
-                "foreground": "#ff00ff"
+                "foreground": "#B4AD9C"
             }
         },
         {
@@ -323,6 +324,15 @@
             }
         },
         {
+            "name": "Typescript Import",
+            "scope": [
+                "variable.other.readwrite.alias.tsx"
+            ],
+            "settings": {
+                "foreground": "#EB789C",
+            }
+        },
+        {
             "name": "Entity Type: enum",
             "scope": [
                 "entity.name.type.enum.ts",
@@ -344,12 +354,14 @@
             }
         },
         {
-            "name": "keyword.operator.expression.of",
+            "name": "Keywords In, Of",
             "scope": [
-                "keyword.operator.expression.of"
+                "keyword.operator.expression.of",
+                "keyword.operator.expression.in",
             ],
             "settings": {
-                "foreground": "#ff00ff"
+                "foreground": "#D38D3C",
+                "fontStyle": "italic"
             }
         },
         {
@@ -544,7 +556,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#ff00ff"
+                "foreground": "#D3BB6C"
             }
         },
         {
@@ -859,7 +871,6 @@
         {
             "name": "Function Definitions",
             "scope": [
-                "meta.object-literal.key entity.name.function",
                 "variable.other.constant entity.name.function",
                 "meta.field.declaration entity.name.function",
                 "meta.definition.method",
@@ -997,7 +1008,7 @@
             ],
             "settings": {
                 "fontStyle": "italic underline",
-                "foreground": "#00ff00"
+                "foreground": "#EB789C"
             }
         },
         {
@@ -1125,11 +1136,12 @@
             "name": "entity.name.type.module.ts",
             "scope": [
                 "entity.name.type.module.ts",
-                "entity.name.type.module.tsx"
+                "entity.name.type.module.tsx",
+                "variable.other.readwrite.tsx meta.export.default.tsx"
             ],
             "settings": {
-                "fontStyle": "bold italic underline",
-                "foreground": "#00ff00"
+                "fontStyle": "bold italic",
+                "foreground": "#EB789C"
             }
         },
         {
@@ -1214,7 +1226,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#00ff00"
+                "foreground": "#D38D3C"
             }
         },
         {
@@ -1224,7 +1236,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#00ff00"
+                "foreground": "#D38D3C"
             }
         },
         {
@@ -1421,7 +1433,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#C55A58"
+                "foreground": "#58C078"
             }
         },
         {
