@@ -2175,6 +2175,190 @@
             "settings": {
                 "foreground": "#40A188",
             }
-        }
+        },
+        {
+            "name": "Rust Type Name",
+            "scope": [
+                "entity.name.type.rust",
+            ],
+            "settings": {
+                "foreground": "#7CD3A7",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Rust namespace, module",
+            "scope": [
+                "entity.name.namespace.rust",
+                "meta.use.rust",
+                "entity.name.module.rust"
+            ],
+            "settings": {
+                "foreground": "#D3BB6C",
+            }
+        },
+        {
+            "name": "Rust Struct Name",
+            "scope": [
+                "entity.name.type.struct.rust",
+            ],
+            "settings": {
+                "foreground": "#7CD3A7",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Rust Trait Name",
+            "scope": [
+                "entity.name.type.trait.rust",
+            ],
+            "settings": {
+                "foreground": "#7CD3A7",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Rust Type Declaration",
+            "scope": [
+                "entity.name.type.declaration.rust",
+            ],
+            "settings": {
+                "foreground": "#D3BB6C",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Rust Numeric Type & primitive",
+            "scope": [
+                "entity.name.type.numeric.rust",
+                "entity.name.type.primitive.rust"
+            ],
+            "settings": {
+                "foreground": "#EB789C",
+            }
+        },
+        {
+            "name": "Rust Lifetime",
+            "scope": [
+                "entity.name.type.lifetime.rust",
+            ],
+            "settings": {
+                "foreground": "#869EFF",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Rust Attributes",
+            "scope": [
+                "punctuation.brackets.attribute.rust",
+                "punctuation.definition.attribute.rust",
+                "meta.attribute.rust",
+            ],
+            "settings": {
+                "foreground": "#FFF",
+            }
+        },
+        {
+            "name": "Rust Double Colon",
+            "scope": [
+                "keyword.operator.namespace.rust",
+            ],
+            "settings": {
+                "foreground": "#B4AD9C",
+            }
+        },
+        {
+            "name": "Rust self variable",
+            "scope": [
+                "variable.language.self.rust",
+            ],
+            "settings": {
+                "foreground": "#268BD2",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Rust function",
+            "scope": [
+                "entity.name.function.rust",
+            ],
+            "settings": {
+                "foreground": "#FFFFFFCC"
+            }
+        },
+        {
+            "name": "Rust match Option",
+            "scope": [
+                "entity.name.type.option.rust",
+            ],
+            "settings": {
+                "foreground": "#C792EA",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Rust borrow (&) operator",
+            "scope": [
+                "keyword.operator.borrow.and.rust",
+                "keyword.operator.key-value.rust",
+            ],
+            "settings": {
+                "foreground": "#FFFFFF",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Rust arrow operators",
+            "scope": [
+                "keyword.operator.arrow.skinny.rust",
+                "keyword.operator.arrow.fat.rust",
+            ],
+            "settings": {
+                "foreground": "#B4AD9C",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Rust semicolon, dot",
+            "scope": [
+                "punctuation.semi.rust",
+                "keyword.operator.access.dot.rust"
+            ],
+            "settings": {
+                "foreground": "#B4AD9C",
+                "fontStyle": "",
+            }
+        },
+        {
+            "name": "Rust super, crate",
+            "scope": [
+                "variable.language.super.rust",
+                "keyword.other.crate.rust",
+            ],
+            "settings": {
+                "foreground": "#C55A58",
+                "fontStyle": "",
+            }
+        },
+        {
+            "name": "Rust interpolation {}",
+            "scope": [
+                "punctuation.definition.interpolation.rust",
+                "meta.interpolation.rust",
+            ],
+            "settings": {
+                "foreground": "#C55A58",
+                "fontStyle": "bold",
+            }
+        },
+        {
+            "name": "Rust math operators",
+            "scope": [
+                "keyword.operator.math.rust",
+            ],
+            "settings": {
+                "foreground": "#B4AD9C",
+            }
+        },
     ]
 }
