@@ -215,7 +215,8 @@
         "editorBracketPairGuide.activeBackground4": "#33DB9E",
         "editorBracketPairGuide.activeBackground5": "#EBC700",
         "editorBracketPairGuide.activeBackground6": "#e8415a",
-          
+        "editorInlayHint.background": "#38312D",
+        "editorInlayHint.foreground": "#7D6E67",        
     },
     "tokenColors": [
         {
