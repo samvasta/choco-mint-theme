@@ -15,6 +15,11 @@
                 "label": "Medium Brown",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Medium-Brown-color-theme.json"
+            },
+            {
+                "label": "Morning Mode",
+                "uiTheme": "vs",
+                "path": "./themes/High-Contrast-color-theme.json"
             }
         ]
     }
