@@ -19,7 +19,12 @@
             {
                 "label": "Morning Mode",
                 "uiTheme": "vs",
-                "path": "./themes/High-Contrast-color-theme.json"
+                "path": "./themes/Morning-Mode-color-theme.json"
+            },
+            {
+                "label": "Pocus Light",
+                "uiTheme": "vs",
+                "path": "./themes/Pocus-Light-color-theme.json"
             }
         ]
     }
